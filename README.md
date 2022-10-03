@@ -1,1 +1,1 @@
-# JavaScrip_Learning
+# JavaScript_Learning
