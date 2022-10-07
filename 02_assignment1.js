@@ -1,0 +1,17 @@
+console.log("=============================Assignment1============================");
+var city="Pune";
+var PIN=411056;
+var is_married=true;
+console.log("City:",city,",","Type:",typeof city);
+console.log("PIN:",PIN,",","Type:",typeof PIN);
+console.log("Married Status:",is_married,",","Type:",typeof is_married);
+console.log("=============================================");
+console.log("Difference between undefined and null");
+console.log("null:-null is an object,null value means a variable has been explicitly set as (no value = null) or has been initialized and defined to be nothing");
+console.log("For Example:");
+var myProperty=null;
+console.log("Type of myProperty variable is: ",typeof myProperty);
+console.log("undefined:- undefined is a type, It means a variable declared, but no value has been assigned a value.");
+console.log("For Example:");
+var myName;
+console.log("Type of myName variable is: ",typeof myName);
