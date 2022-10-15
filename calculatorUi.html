@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator UI</title>
+    <style>
+      label{
+            color: rgb(50, 10, 226);
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+            border: 3px dashed royalblue;
+            width: 100px;
+            border-radius: 10px;
+        }
+        input[type="text"]{
+            color: cadetblue;
+            font-size: large;
+            border: 3px dashed royalblue;
+            font-family: 'Courier New', Courier, monospace;
+        border: 2px dotted solid blue;
+        border-radius: 10px;
+
+       }
+       input[type="button"]{
+        color: rgb(50, 10, 226);
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+            border: 3px dashed royalblue;
+            width: 100px;
+            border-radius: 10px;
+       }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                  <td> <label for="num1">Number1</label></td>
+                  <td> <label for="num2">Number2</label></td> 
+                  <td> <label for="num2">Result</label></td> 
+                </tr>
+                <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                   
+                </tr>
+                <tr>
+                    <td><input type="button"value="Addition"></td>
+                    <td><input type="button"value="Subtraction"></td>
+                    <td><input type="button"value="Multiply"></td>
+                    <td><input type="button"value="Division"></td>
+                </tr>
+                <tr><td><input type="button"value="Clear"></td></tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>
