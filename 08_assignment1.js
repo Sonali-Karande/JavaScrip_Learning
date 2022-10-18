@@ -1,41 +1,44 @@
 console.log("****************************Q1 Count total No  of Vowels using includes******************************");
 var givenString = "Good Morning IT Champ";
 var count = 0;
-
+var vowelsLowerCase="aeiou";
+var vowelsUpperCase="AEIOU";
 var strLowerCase = givenString.toLowerCase();
 for (let index = 0; index < givenString.length; index++) {
-    var char = strLowerCase.charAt(index);
-    if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u") {
-        if (givenString.includes(char)) {
-            
+    var char = givenString.charAt(index);
+    var isLowerAvailable=vowelsLowerCase.includes(char);
+    var isUpperAvailable=vowelsUpperCase.includes(char);
+    if (isLowerAvailable||isUpperAvailable) {
         count++;
     }
-}
+
 }
     console.log(`Total no of vowels using include()are: ${count}`);
 console.log("****************************Q2 Count total No  of Vowels using Function******************************");
 
 
 //WAP to count total no of vowels  using function
-var str = "I Love JavaScript";
-function countVowels(str1) {
-    count = 0;
-    var strLowerCase = str1.toLowerCase();
-    for (let index = 0; index < str.length; index++) {
-       var char = strLowerCase.charAt(index);
-        if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u") {
 
-            count++;
-        }
+function countVowels(str1) {
+    var count = 0;
+var vowelsLowerCase="aeiou";
+var vowelsUpperCase="AEIOU";
+    for (let index = 0; index < str1.length; index++) {
+       var char = str1.charAt(index);
+       var isLowerAvailable=vowelsLowerCase.includes(char);
+       var isUpperAvailable=vowelsUpperCase.includes(char);
+       if (isLowerAvailable||isUpperAvailable) {
+           count++;
+       }
     }
 
-    return count;
+    return `"${str1}" is:${count}`;
 }
 
 
-var result = countVowels(str);
-console.log(`The total number of vowels in given string are : ${result}`);
-console.log(`The total number of vowels in given string are : ${countVowels("asvbxcnmbEEEEEEsgahqjMZXBDGHSJ")}`);
+//var result = countVowels(str);
+console.log(`The total number of vowels in string  ${countVowels("I Love JavaScript")}`);
+console.log(`The total number of vowels in string  ${countVowels("Soon I will be Angular IT Champ")}`);
 
 console.log("****************************Q3 Sum of Number from 1 to 10******************************");
 
@@ -74,7 +77,7 @@ function evenPositionedChar(str){
         }
         
     }
-    return result;
+    return `Even positioned characters in string"${str}" is:${result}`;
 }
 var ans =evenPositionedChar(str1);
 var result1 =evenPositionedChar(str2);
@@ -93,7 +96,7 @@ function oddPositionedChar(str){
         }
         
     }
-    return result;
+    return`Odd positioned characters in "${str}" is:${result}` ;
 }
 var ans =oddPositionedChar(str1);
 var result1 =oddPositionedChar(str2);
@@ -101,6 +104,37 @@ console.log(ans);
 console.log(result1);
 
 
+// console.log("*****************************************************");
 
 
-
+// // Count the total number vowels using includes() for string → “Good Morning IT Champ”
+// var countVowels = function(myString) {
+//     console.log("Count the total number vowels using includes() for string → “Good Morning IT Champ”");
+//     //var myString = "Good Morning IT Champ";
+//     var vowelsLoweCase = "aeiou";
+//     var vowelUpperCase = "AEIOU";
+//     var vowelsCount=0;
+//     for (let index = 0; index < myString.length; index++) {
+//        var char =  myString.charAt(index);
+//        var isLowerAvailable =  vowelsLoweCase.includes(char);
+//        var isUpperAvailable =  vowelUpperCase.includes(char);
+//        if (isLowerAvailable || isUpperAvailable) {
+//             vowelsCount = vowelsCount + 1;
+//        }
+//     }
+//     console.log(`Total Vowels count : ${vowelsCount}`);
+// }
+// countVowels("Good Morning IT Champ");
+// console.log("============================");
+// function evenPositionedChars(myString){
+//     for (let index = 0; index < myString.length; index++) {
+//        // console.log(index%2==0);
+//        var chh = myString.charAt(index);
+//        if (index%2==0 && chh!=" ") {
+//           console.log(chh);
+//        }
+//        //var chh = myString.charAt(index);
+        
+//     }
+// }
+// evenPositionedChars("Hard work always pays back");

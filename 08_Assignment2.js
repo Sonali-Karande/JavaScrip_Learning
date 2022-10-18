@@ -8,5 +8,5 @@ var reverseString="";
   return reverseString;
     
 }
-console.log(`Reverse of the string si:${reverseString("Hard work always pays back")}`);
-console.log(`Reverse of the string si:${reverseString("Soon I will be Angular IT Champ")}`);
+console.log(`Reverse of the string is:${reverseString("Hard work always pays back")}`);
+console.log(`Reverse of the string is:${reverseString("Soon I will be Angular IT Champ")}`);
