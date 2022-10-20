@@ -1,6 +1,5 @@
 
-function gradeSystem(score, grade) {
-    grade = "";
+function gradeSystem(score) {
     switch (true) {
         case score <= 0:
             console.log("******************************************************************************");
