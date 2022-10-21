@@ -5,12 +5,12 @@ var wordLenghtSquare = function(givenWord){
  
  }
  var result = wordLenghtSquare("JavaScript");
- log(result);
+ console.log(result);
  
  var givenString = "I am Angular Developer";
  var strLength = givenString.length;
  var arryayWords = givenString.split(" ");
  var count  = arryayWords.length;
  var res = strLength / count;
- log(res)
+ console.log(res)
  

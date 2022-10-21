@@ -4,6 +4,10 @@ let mohit={
     age:42,
     isMarried:true
 }
+let isAvailable="fullName" in mohit;
+console.log(isAvailable);
+console.log("city" in mohit);
+console.log("****************************************");
 console.log(Object.entries(mohit));
 console.log(Object.keys(mohit));
 console.log(Object.values(mohit));
