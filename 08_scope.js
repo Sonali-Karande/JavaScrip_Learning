@@ -14,4 +14,5 @@ let  factorial=1;
 while (coun>=1) {
     factorial=factorial*coun;
     coun--;
+    console.log(factorial);
 }

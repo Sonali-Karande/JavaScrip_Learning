@@ -50,7 +50,8 @@ for (let index = 0; index < array_numbers.length; index++) {
         s5=s5+array_numbers[index]+" ";
     }
     
-    
+    const t=2;
+     t=3;
 }
 
 console.log(s5);
