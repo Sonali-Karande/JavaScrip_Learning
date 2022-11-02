@@ -5,6 +5,12 @@ const array3=[...array1,...array2];
 console.log(array3);
 console.log("=============================   ");
 var arrayOfNumbers=[1,3,7,8,9,3,7];
+console.log("=============Resize Array===============   ");
+console.log(arrayOfNumbers.length);
+//arrayOfNumbers.length=10;
+
+arrayOfNumbers.length=3;
+console.log(arrayOfNumbers.length);
 arrayOfNumbers.push(99);
 arrayOfNumbers.push(56);
 arrayOfNumbers.pop();
