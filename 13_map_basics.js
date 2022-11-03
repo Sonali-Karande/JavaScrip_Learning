@@ -53,7 +53,6 @@ for (const key of mapKeys) {
      let personObject = mapOfPersons.get(key);
      personObject.details();
 console.log(personObject);
-console.log(mapKeys[key]);
 }
 
 console.log("Pune" in personAnil);

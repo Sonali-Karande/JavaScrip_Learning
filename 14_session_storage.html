@@ -9,12 +9,17 @@
 <body>
     <h3>Understanding Session Storage</h3>
     <script>
-        window.sessionStorage.setItem("Sonali","Kole");
-        window.sessionStorage.setItem("Kavya","songola");
-        window.sessionStorage.setItem("Swati","Indapur");
-        window.sessionStorage.setItem("Nandini","Pune");
-        window.sessionStorage.removeItem("Swati");
-
+        window.sessionStorage.setItem("lName","Sachin");
+        window.sessionStorage.setItem("fName","Tendulkaer");
+        window.sessionStorage.setItem("country","Mumbai");
+        window.sessionStorage.setItem("runs",35000);
+        console.log(window.sessionStorage.getItem("firstName"));
+        console.log(window.sessionStorage.getItem("lastName"));
+        console.log(window.sessionStorage.getItem("country"));
+        console.log(window.sessionStorage.getItem("runs"));
+       //window.sessionStorage.removeItem("runs");
+       console.log(window.sessionStorage.length);
+       //window.sessionStorage.clear();
     </script>
 </body>
 </html>
