@@ -16,6 +16,8 @@ function display() {
 }
 setTimeout(display,2000);
 console.log("==========================================");
-
-setInterval(display,2000);
+function show() {
+    console.log("display function");
+}
+setInterval(show,2000);
 

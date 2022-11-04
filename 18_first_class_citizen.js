@@ -7,7 +7,9 @@ function message() {
     }
     return inner_fun;
 }
-//message()();
+message()();
+console.log("====================================");
+
 let returnFun=message();
 returnFun();
 console.log("====================================");
@@ -23,21 +25,21 @@ function message() {
 
 message()();
 console.log("====================================");
-// console.log("====================================");
-// function message() {
-//    //console.log("Inside messsge function");
-//     let inner_fun=function()
-//     {
-//         //console.log("Inside inner_fun function");
+console.log("====================================");
+function message() {
+   console.log("Inside messsge function");
+    let inner_fun=function()
+    {
+        console.log("Inside inner_fun function");
 
-//     }
-//     return 10;
+    }
+    return 10;
 
 
-// }
+}
 
-//  let sum=message()+100;
-//  console.log(sum);
+ let sum=message()+100;
+ console.log(sum);
 console.log("====================================");
 
 // Functions are known as first class citizens in JavaScript

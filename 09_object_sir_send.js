@@ -5,6 +5,8 @@ const mohitPerson =  {
     age: 42,
     "isMarried": true
 }
+console.log("age" in mohitPerson);
+
 
 console.log(Object.entries(mohitPerson));
 console.log(Object.keys(mohitPerson));

@@ -49,10 +49,16 @@ class Person{
 }
 let sachin = new Person("Sachin Tendulkar", "Pune", 45, "Male");
 let rohit = new Person("Rohit Shram", "Mumbai", 32, "Male");
-console.log(sachin.details());
+sachin.fullName;
+sachin.details();
+console.log("===================");
+ console.log(sachin.details());
 console.log(sachin);
 console.log(rohit);
-console.log(typeof sachin);
+console. log(typeof sachin);
+console.log("===================");
+
+//console.log("age" in Person);
 class Student{
     constructor(rollNo,schoolName)
     {
