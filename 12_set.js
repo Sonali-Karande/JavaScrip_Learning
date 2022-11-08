@@ -1,7 +1,7 @@
 let arrayOfNumbers=[2,3,4,5];
 arrayOfNumbers.push(3);
  console.log(arrayOfNumbers);
- arrayOfNumbers.length=0;//empty array
+ //arrayOfNumbers.length=0;//empty array
  let setOfNumbers=new Set();
 console.log(typeof setOfNumbers);
 console.log("********************adding element into set collection********************8");
