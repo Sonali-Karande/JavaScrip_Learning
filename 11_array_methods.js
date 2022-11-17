@@ -54,11 +54,11 @@ console.log(array_numbers);
 // let splicedElement12=array_numbers.splice(2,0,22);
 // let splicedElement11=array_numbers.splice(4,0,22);//0 means dont replace
 // let splicedElement134=array_numbers.splice(2,1,22);//1 means replce
-// let splicedElement125=array_numbers.splice(2,2,22);
+ let splicedElement125=array_numbers.splice(2,2,22);
 //let splicedElement1=array_numbers.splice(2,2,22,44,55);
-let splicedElement1=array_numbers.splice(2,1,22,44,66);
+// let splicedElement1=array_numbers.splice(2,1,22,44,66);
 
-console.log(splicedElement1);
+console.log(splicedElement125);
 console.log(array_numbers);
 
 

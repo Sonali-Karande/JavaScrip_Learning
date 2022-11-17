@@ -37,7 +37,11 @@ console.table(otherArray);
 
 
 
-
+for (let i = 0; i < array.length; i++) {
+    const element = array[index];
+    let pro=pro*element;
+    console.log(pro);
+}
 
 
 

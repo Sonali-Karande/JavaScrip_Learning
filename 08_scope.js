@@ -16,3 +16,9 @@ while (coun>=1) {
     coun--;
     console.log(factorial);
 }
+console.log("=====================================");
+let fact = 1,number=10;
+for (i = 1; i <= number; i++) {
+    fact *= i;
+}
+console.log(`The factorial of ${number} is ${fact}.`);

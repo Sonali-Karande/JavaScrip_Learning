@@ -22,7 +22,7 @@ switch (day_number) {
         console.log("Saturday");
         break;
 
-    case 6:
+    case 7:
         console.log("Sunday");
         break;
     default:

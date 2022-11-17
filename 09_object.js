@@ -30,12 +30,14 @@ console.log("I am vegetarian");
         console.log("I do walk everyday");
     },
     details:function() {
-        let personDetails=this.fullName+" "+this.age+" "+this.address.street;
-        let personDetails1=`Details Are: ${this.fullName}, ${this.age} ,${this.address.street}`;
+        //let personDetails=this.fullName+" "+this.age+" "+this.address.street;
+        let personDetails1=`Details Are: ${this.fullName}, ${this.age} ,${person.address.street}`;
         return personDetails1;
         // console.logL(this.fullName,this.age,this.address.city);
     }
 }
+//var {fullName,city,age,isMarried,address:{street,pin_code,state}}=person;//nested object destructuring
+//console.log(street);
 let pDetails=person.details();
 console.log(pDetails);
 console.log(typeof person);

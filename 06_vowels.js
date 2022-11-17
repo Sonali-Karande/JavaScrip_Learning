@@ -24,6 +24,9 @@ console.log("================= Just log Vowels ======================");
  for (let index = 0; index < givenString.length; index++) {
     var char = strLowerCase.charAt(index);
     if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u") {
+        //let set=new Set(strLowerCase);
         console.log(char);
+        //console.log(set);
+
     }
 }
